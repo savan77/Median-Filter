@@ -7,7 +7,7 @@ try:
     imgName = sys.argv[1]
     OPname = sys.argv[2]
 except:
-	print "Run like this : python medianFilter.py input.jpg output.jpg 3/5(filter size) \n"
+	print "Run like this : python median.py input.jpg output.jpg 3/5(filter size) \n"
 	exit(0)
 try:
 	sFilter = int(sys.argv[3])
