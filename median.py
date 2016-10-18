@@ -11,6 +11,8 @@ except:
 	exit(0)
 try:
 	sFilter = int(sys.argv[3])
+	if not sFilter ==3 or sFilter ==5:
+		sFilter=3
 except:
 	print "Filter size hasn't been mentioned. Using 3*3 by default."
 	sFilter = 3
