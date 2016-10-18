@@ -5,5 +5,5 @@ Median Filtering is a digital filtering technique, used to remove noise from an 
 
 #Run
 Dependency for this script is python 2.7, numpy and scipy. To run,
-python medain.py input.jpg output.jpg 3/5
+**python medain.py input.jpg output.jpg 3/5 **
 where 3/5 shows filter size, it could be 3 or 5.Please
